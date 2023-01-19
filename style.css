@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,300;1,500;1,700&display=swap');
+
+:root{
+    --color-dark: hsl(252, 35%, 20%);
+    --color-black: hsl(252, 35%, 12%);
+    --color-white: hsl(252, 35%, 100%);
+    --color-light: hsl(252, 35%, 95%);
+    --color-gray: hsl(252, 17%, 67%);
+    --color-primary: hsl(252, 77%, 62%);
+    --color-secondary: hsl(252,100%, 90%);
+    --color-success: hsl(120, 95%, 67%);
+    --color-danger: hsl(0, 95%, 67%);
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+body{
+    font-family: "Alegreya Sans SC", sans-serif;
+    color: var(--color-dark);
+    background: var(--color-light);
+    overflow-x: hidden;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
